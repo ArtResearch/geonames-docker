@@ -1,0 +1,1 @@
+# Blazegraph instance for Geonames
