@@ -1,7 +1,7 @@
 version: "2.2"
 services:
   
-  blazegraph-geoname:
+  blazegraph-geonames:
 #    container_name: blazegraph-vision
     image: ${BLAZEGRAPH_IMAGE}
     restart: always
