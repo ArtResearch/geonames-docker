@@ -2,7 +2,6 @@ version: "2.2"
 services:
   
   blazegraph-geonames:
-#    container_name: blazegraph-vision
     image: ${BLAZEGRAPH_IMAGE}
     restart: always
     mem_limit: ${BLAZEGRAPH_MEMORY}
@@ -19,7 +18,7 @@ services:
       max-size: "200k"
       max-file: "10"
 
-networks:
-  default:
-    external:
-      name: nginx-docker-gen
+      #networks:
+      #  default:
+      #    external:
+      #      name: nginx-docker-gen
